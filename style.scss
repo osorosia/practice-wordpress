@@ -1,24 +1,31 @@
 /*
 Theme Name: ahaha-theme
+Author: osorosia
+Author URI: http://localhost:8080/
+Description: test
+Version: 0.1
 */
 
 // font-size
-$font_size_singular_title: 2rem;
+$font_size_singular_title: 4rem;
 
 body {
-    color: white;
     margin: 0px;
     padding: 0px;
 }
 
 .single {
     &-title {
-        font-size: $font_size_singular_title;
+        h1 {
+            font-size: $font_size_singular_title;
+        }
     }
 }
 
 .page {
     &-title {
-        font-size: $font_size_singular_title;
+        h1 {
+            font-size: $font_size_singular_title;
+        }
     }
 }

@@ -1,17 +1,20 @@
 /*
 Theme Name: ahaha-theme
+Author: osorosia
+Author URI: http://localhost:8080/
+Description: test
+Version: 0.1
 */
 body {
-  color: white;
   margin: 0px;
   padding: 0px;
 }
 
-.single-title {
-  font-size: 2rem;
+.single-title h1 {
+  font-size: 4rem;
 }
 
-.page-title {
-  font-size: 2rem;
+.page-title h1 {
+  font-size: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
