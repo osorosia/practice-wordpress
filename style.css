@@ -7,6 +7,10 @@ body {
   padding: 0px;
 }
 
+.single-title {
+  font-size: 2rem;
+}
+
 .page-title {
   font-size: 2rem;
 }

@@ -3,7 +3,7 @@ Theme Name: ahaha-theme
 */
 
 // font-size
-$font-size-page-title: 2rem;
+$font_size_singular_title: 2rem;
 
 body {
     color: white;
@@ -11,8 +11,14 @@ body {
     padding: 0px;
 }
 
+.single {
+    &-title {
+        font-size: $font_size_singular_title;
+    }
+}
+
 .page {
     &-title {
-        font-size: $font-size-page-title;
+        font-size: $font_size_singular_title;
     }
 }
