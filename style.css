@@ -7,11 +7,7 @@ body {
   padding: 0px;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 50px;
+.page-title {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

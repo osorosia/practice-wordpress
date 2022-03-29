@@ -2,20 +2,17 @@
 Theme Name: ahaha-theme
 */
 
+// font-size
+$font-size-page-title: 2rem;
+
 body {
     color: white;
     margin: 0px;
     padding: 0px;
 }
 
-main {
-
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 50px;
+.page {
+    &-title {
+        font-size: $font-size-page-title;
+    }
 }
