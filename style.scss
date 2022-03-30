@@ -16,16 +16,12 @@ body {
 
 .single {
     &-title {
-        h1 {
-            font-size: $font_size_singular_title;
-        }
+        font-size: $font_size_singular_title;
     }
 }
 
 .page {
     &-title {
-        h1 {
-            font-size: $font_size_singular_title;
-        }
+        font-size: $font_size_singular_title;
     }
 }
